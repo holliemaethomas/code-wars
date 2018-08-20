@@ -1,3 +1,1 @@
-function solution(str) {
-  return str.split("").reverse().join("");
-}
+const validateUsr = username => /^([a-z]|[\d]|[_]){4,16}$/.test(username)
